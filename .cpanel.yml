@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hlgs4475/repositories/laravel/public 
+    - /bin/cp -R index.php $DEPLOYPATH
+
